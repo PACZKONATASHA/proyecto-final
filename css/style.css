@@ -244,7 +244,7 @@ button {
 
 .carrusel-principal {
   display: flex;
-  width: 100%;
+  width: auto;
   height: 100vh;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
