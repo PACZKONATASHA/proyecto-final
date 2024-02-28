@@ -1,0 +1,41 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.for-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container {
+  max-width: 400px; /* ajusta el ancho del formulario según tus necesidades */
+  width: 100%;
+  text-align: center;
+}
+
+form ul {
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+      
+      
+        
+        
+    
+        
+        
+    
+      
+    
