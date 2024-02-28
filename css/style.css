@@ -175,6 +175,34 @@ button {
   margin-top: 10px;
 }
 
+.conteiner-quienes-somos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.conteiner-quienes-somos .conteiner-estilo-propio {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.container-politica-devolucion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.container-politica-devolucion h1, .container-politica-devolucion h2, .container-politica-devolucion p {
+  margin-bottom: 30px;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
