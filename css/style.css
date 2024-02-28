@@ -221,6 +221,9 @@ button {
   height: 500px;
   display: block;
 }
+.gallery img:hover {
+  border: 5px solid rgb(218, 51, 143);
+}
 .gallery .view-button {
   position: absolute;
   top: 95%;
