@@ -46,25 +46,42 @@
   
     
 
+  .carrusel-principal {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    position: relative;
+  
+  
+  .carrusel-principal img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  
+  }
+
+}
+
+
+
 
   
-.carrusel-principal {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  position: relative;
+  
+
+  
 
 
-.img {
-  height: auto;
-  width: 100%;
-  object-fit: cover;
-  scroll-snap-align: center;
 
-}
-}
+
+  @media only screen and (max-width: 768px) {
+    .image-container {
+      width: 100%;
+    }
+  }
+
 .formulario{
   h2{
     display: flex;
