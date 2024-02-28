@@ -34,6 +34,9 @@ header a {
   text-decoration: none;
   color: #fff;
 }
+header a:hover {
+  border: 5px solid rgb(236, 33, 145);
+}
 @media (max-width: 768px) {
   header header {
     flex-direction: column;
@@ -222,7 +225,7 @@ button {
   display: block;
 }
 .gallery img:hover {
-  border: 5px solid rgb(218, 51, 143);
+  border: 5px solid rgb(236, 33, 145);
 }
 .gallery .view-button {
   position: absolute;
@@ -244,7 +247,7 @@ button {
 
 .carrusel-principal {
   display: flex;
-  width: auto;
+  width: 100%;
   height: 100vh;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
