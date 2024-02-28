@@ -38,22 +38,9 @@
     }
   }
   }
-  .formulario{
-    h2{
-      display: flex;
-      justify-content: center;
-    }
-    p{
-      display: flex;
-      justify-content: center;
-    }
-    ul{
-      
-    display: flex;
-    justify-content: center;
-    padding-left: 5%;
-  }
-  }
+  
+    
+
 
   
 .carrusel-principal {
@@ -71,5 +58,21 @@
   object-fit: cover;
   scroll-snap-align: center;
 
+}
+}
+.formulario{
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+  p{
+    display: flex;
+    justify-content: center;
+  }
+  ul{
+    
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
 }
 }
